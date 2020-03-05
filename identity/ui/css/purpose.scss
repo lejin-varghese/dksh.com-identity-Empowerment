@@ -242,7 +242,7 @@ header{
 		}
 		.controllers {
 			position: absolute;
-			right: 24px;
+			right: 5px;
 			top: 21px;
 			height: 116px;
 			width: 57px;
@@ -254,7 +254,7 @@ header{
 				span{
 					font-size: 30px;
 					opacity: 1;
-					color: #fff;
+					color: $dksh-r;
 				}
 				&:hover{
 					text-decoration: none;
