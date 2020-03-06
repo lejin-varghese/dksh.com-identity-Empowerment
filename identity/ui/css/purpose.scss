@@ -25,7 +25,8 @@ header{
   z-index: 2000;
   @media(max-width:992px){
 	background-color: rgba(255,255,255,1);
-  }
+	}
+
   &.fixed{
 	z-index: 2000;
 	padding: 5px 0;
@@ -59,15 +60,57 @@ header{
 		}
 	  }
 	}
-  }
+	}
+	&.purpose-nav{
+		.navbar-brand{
+			svg{
+				fill: #fff;
+			}
+		}
+		ul.navbar-nav{
+			li.nav-item{
+				a.nav-link{
+					color: #fff;
+				}
+				a{
+					svg{
+						*{
+							fill:#fff;
+						}
+					}
+				}
+			}
+		}
+		&.fixed{
+			ul.navbar-nav{
+				li.nav-item{
+					a.nav-link{
+						color: $grey;
+					}
+					a{
+						svg{
+							*{
+								fill:$grey;
+							}
+						}
+					}
+				}
+			}
+			.navbar-brand{
+				svg{
+					fill: $dksh-r;
+				}
+			}
+		}
+	}
   
 }
 .page-selector{
 	position: fixed;
 	right: 25px;
 	top: 0;
-	z-index: 100;
-	bottom: 0;
+	z-index: 200;
+	bottom: 160px;
 	display: flex;
 	@media (max-width:767px) {
 		right: 15px;
@@ -79,6 +122,7 @@ header{
 		width: 100%;
 		margin: auto;
 		position: relative;
+		top: 112px;
 		&:after{
 			content: "";
 			position: absolute;
@@ -204,7 +248,16 @@ header{
 				margin-top: 0;
 			}
 			@media (max-width:980px) {
-				font-size:12.3vw;
+				font-size:9.3vw;
+			}
+			&.integrity{
+				color: #6a1c2b;
+			}
+			&.empowerment{
+				color: #112851;
+				@media (min-width:1024px) {
+					font-size:5vw;
+				}
 			}
 		}
 		.dksh-title-5{
@@ -237,13 +290,14 @@ header{
 		height: 144px;
 		bottom: 30px;
 		z-index: 100;
+		
 		@media (max-width:980px) {
 			display: none;
 		}
 		.controllers {
-			position: absolute;
+			position: fixed;
 			right: 5px;
-			top: 21px;
+			top: calc(100% - 149px);
 			height: 116px;
 			width: 57px;
 			text-align: center;
@@ -312,7 +366,7 @@ header{
 					}
 				}
 				.dt-wrap{
-					padding: 13px;
+					padding: 15px 13px;
 					section.row-1 {
 						display: flex;
 						width: 100%;
@@ -509,6 +563,9 @@ header{
 }
 
 .element-intro{
+	position: relative;
+	z-index: 101;
+	background:#fff;
 	.txt-wrap{
 		max-width: 900px;
 		margin: auto;
@@ -531,6 +588,8 @@ header{
 .ceo-talk{
 	background: $dksh-r;
 	overflow: hidden;
+	position: relative;
+	z-index: 101;
 	.container{
 		height: 100%;
 		.row{
@@ -563,7 +622,7 @@ header{
 				font-size: 40px;
 				color: #fff;
 			}
-			padding-left: 12%;
+			padding-left: 14%;
 			text-align: right;
 			@media (max-width:980px){
 				padding-right: 11%;
@@ -639,6 +698,9 @@ header{
 	}
 }
 .activity-section{
+	position: relative;
+	z-index: 101;
+	background:#fff;
 	@media (max-width:460px){
 		height: auto !important;
 	}
@@ -724,6 +786,9 @@ header{
 	}
 }
 .vision-section{
+	position: relative;
+	z-index: 101;
+	background:#fff;
 	@extend .activity-section;
 	.container{
 		height: 100%;
@@ -752,6 +817,9 @@ header{
 	}
 }
 .promise-section{
+	position: relative;
+	z-index: 101;
+	background:#fff;
 	@extend .activity-section;
 	.container{
 		height: 100%;
@@ -781,6 +849,8 @@ header{
 
 
 .testimonials{
+	position: relative;
+	z-index: 101;
 	background: #fff;
 
 	.container{
@@ -1003,6 +1073,9 @@ header{
 
 }
 footer{
+	background:#fff;
+	position: relative;
+	z-index: 101;
   @media (max-width:767px) {
 	font-size: 12px;
 	padding: 0 0px 0;
@@ -1042,6 +1115,7 @@ footer{
 }
 
 .mob-pg-caller{
+
 	display: none;
 	@media (max-width:980px) {
 		p{
@@ -1065,7 +1139,10 @@ footer{
 
 // module 3
 .winners{
+	position: relative;
+	z-index: 101;
 	height: auto !important;
+	background:#fff;
 	@media (min-width:1024px) {
 		padding-right: 70px;
 	}
@@ -1181,7 +1258,7 @@ footer{
 				font-size: 12px;
 				text-align: center;
 				.name{
-					font-size: 18px;
+					font-size: 16px;
 					font-weight: bold;
 					margin-bottom: 0;
 				}
@@ -1252,7 +1329,9 @@ footer{
 
 
 .testi-video{
-	
+	position: relative;
+	z-index: 101;
+	background:#fff;
 	.container{
 		height: 100%;
 		padding: 0;
