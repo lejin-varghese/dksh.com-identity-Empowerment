@@ -220,7 +220,7 @@ a:hover {
 }
 
 .white {
-  color: #fff;
+  color: #fff !important;
 }
 
 .red {
@@ -312,12 +312,36 @@ header nav.navbar .nav-item.active .nav-link {
   color: #ab1032 !important;
 }
 
+header.purpose-nav .navbar-brand svg {
+  fill: #fff;
+}
+
+header.purpose-nav ul.navbar-nav li.nav-item a.nav-link {
+  color: #fff;
+}
+
+header.purpose-nav ul.navbar-nav li.nav-item a svg * {
+  fill: #fff;
+}
+
+header.purpose-nav.fixed ul.navbar-nav li.nav-item a.nav-link {
+  color: #98989A;
+}
+
+header.purpose-nav.fixed ul.navbar-nav li.nav-item a svg * {
+  fill: #98989A;
+}
+
+header.purpose-nav.fixed .navbar-brand svg {
+  fill: #ab1032;
+}
+
 .page-selector {
   position: fixed;
   right: 25px;
   top: 0;
-  z-index: 100;
-  bottom: 0;
+  z-index: 200;
+  bottom: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -336,6 +360,7 @@ header nav.navbar .nav-item.active .nav-link {
   width: 100%;
   margin: auto;
   position: relative;
+  top: 112px;
 }
 
 .page-selector ul:after {
@@ -501,7 +526,21 @@ header nav.navbar .nav-item.active .nav-link {
 
 @media (max-width: 980px) {
   .hero-banner .container .dksh-title-1 {
-    font-size: 12.3vw;
+    font-size: 9.3vw;
+  }
+}
+
+.hero-banner .container .dksh-title-1.integrity {
+  color: #6a1c2b;
+}
+
+.hero-banner .container .dksh-title-1.empowerment {
+  color: #112851;
+}
+
+@media (min-width: 1024px) {
+  .hero-banner .container .dksh-title-1.empowerment {
+    font-size: 5vw;
   }
 }
 
@@ -556,9 +595,9 @@ header nav.navbar .nav-item.active .nav-link {
 }
 
 .hero-banner .page-caller .controllers {
-  position: absolute;
+  position: fixed;
   right: 5px;
-  top: 21px;
+  top: calc(100% - 149px);
   height: 116px;
   width: 57px;
   text-align: center;
@@ -649,7 +688,7 @@ header nav.navbar .nav-item.active .nav-link {
 }
 
 .hero-banner .page-caller .thumb-wrap .hover-element .dt-wrap {
-  padding: 13px;
+  padding: 15px 13px;
 }
 
 .hero-banner .page-caller .thumb-wrap .hover-element .dt-wrap section.row-1 {
@@ -859,6 +898,12 @@ header nav.navbar .nav-item.active .nav-link {
   }
 }
 
+.element-intro {
+  position: relative;
+  z-index: 101;
+  background: #fff;
+}
+
 .element-intro .txt-wrap {
   max-width: 900px;
   margin: auto;
@@ -889,6 +934,8 @@ header nav.navbar .nav-item.active .nav-link {
 .ceo-talk {
   background: #ab1032;
   overflow: hidden;
+  position: relative;
+  z-index: 101;
 }
 
 .ceo-talk .container {
@@ -914,7 +961,7 @@ header nav.navbar .nav-item.active .nav-link {
 
 .ceo-talk .container .txt-wrap {
   margin: auto;
-  padding-left: 12%;
+  padding-left: 14%;
   text-align: right;
 }
 
@@ -1046,6 +1093,12 @@ header nav.navbar .nav-item.active .nav-link {
   }
 }
 
+.activity-section, .vision-section, .promise-section {
+  position: relative;
+  z-index: 101;
+  background: #fff;
+}
+
 @media (max-width: 460px) {
   .activity-section, .vision-section, .promise-section {
     height: auto !important;
@@ -1174,6 +1227,12 @@ header nav.navbar .nav-item.active .nav-link {
   }
 }
 
+.vision-section {
+  position: relative;
+  z-index: 101;
+  background: #fff;
+}
+
 .vision-section .container {
   height: 100%;
   padding: 0;
@@ -1209,6 +1268,12 @@ header nav.navbar .nav-item.active .nav-link {
   .vision-section {
     height: auto;
   }
+}
+
+.promise-section {
+  position: relative;
+  z-index: 101;
+  background: #fff;
 }
 
 .promise-section .container {
@@ -1249,6 +1314,8 @@ header nav.navbar .nav-item.active .nav-link {
 }
 
 .testimonials {
+  position: relative;
+  z-index: 101;
   background: #fff;
 }
 
@@ -1536,6 +1603,12 @@ header nav.navbar .nav-item.active .nav-link {
   }
 }
 
+footer {
+  background: #fff;
+  position: relative;
+  z-index: 101;
+}
+
 @media (max-width: 767px) {
   footer {
     font-size: 12px;
@@ -1612,7 +1685,10 @@ footer ul li a {
 }
 
 .winners {
+  position: relative;
+  z-index: 101;
   height: auto !important;
+  background: #fff;
 }
 
 @media (min-width: 1024px) {
@@ -1782,7 +1858,7 @@ footer ul li a {
 }
 
 .winners .row .pic.col .label .name {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
   margin-bottom: 0;
 }
@@ -1849,6 +1925,12 @@ footer ul li a {
   visibility: visible;
   height: auto;
   opacity: 1;
+}
+
+.testi-video {
+  position: relative;
+  z-index: 101;
+  background: #fff;
 }
 
 .testi-video .container {
