@@ -1863,10 +1863,22 @@ footer ul li a {
   margin-bottom: 0;
 }
 
+@media (max-width: 767px) {
+  .winners .row .pic.col .label .name {
+    font-size: 23px;
+  }
+}
+
 .winners .row .pic.col .label .place {
   font-size: 14px;
   letter-spacing: 6px;
   margin: 0;
+}
+
+@media (max-width: 767px) {
+  .winners .row .pic.col .label .place {
+    font-size: 20px;
+  }
 }
 
 .winners .row .pic.col .label .quote {
@@ -1899,6 +1911,12 @@ footer ul li a {
 
 .winners .row .pic.col .label .quote p {
   font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .winners .row .pic.col .label .quote p {
+    font-size: 23px;
+  }
 }
 
 .winners .row .pic.col:nth-child(even) .label {
