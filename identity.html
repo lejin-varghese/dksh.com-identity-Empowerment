@@ -1,68 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>DKSH Identity</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>DKSH Identity</title>
 
-	<link rel="apple-touch-icon" sizes="180x180" href="identity/ui/images/favicon/apple-touch-icon.png/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="identity/ui/images/favicon/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="identity/ui/images/favicon/favicon-16x16.png">
-	<link rel="manifest" href="identity/ui/images/favicon/site.webmanifest">
-	<link rel="mask-icon" href="identity/ui/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-	<meta name="msapplication-TileColor" content="#da532c">
-	<meta name="theme-color" content="#ffffff">
+  <link rel="apple-touch-icon" sizes="180x180" href="identity/ui/images/favicon/apple-touch-icon.png/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="identity/ui/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="identity/ui/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="identity/ui/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="identity/ui/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
-	<link rel="stylesheet" href="identity/css/style.css">
-	<link rel="stylesheet" href="identity/ui/css/purpose.css">
-	<link rel="stylesheet" href="identity/ui/css/customized.css">
-	<link rel="stylesheet" href="identity/ui/css/icons.css">
-	<link rel="stylesheet" type="text/css"href="ui/css/videopopup.css" media="screen" />
-	<link rel="stylesheet"href="identity/ui/css/aos.css" />
+  <link rel="stylesheet" href="identity/css/style.css">
+  <link rel="stylesheet" href="identity/ui/css/purpose.css">
+  <link rel="stylesheet" href="identity/ui/css/customized.css">
+  <link rel="stylesheet" href="identity/ui/css/icons.css">
+  <link rel="stylesheet" type="text/css" href="ui/css/videopopup.css" media="screen" />
+  <link rel="stylesheet" href="identity/ui/css/aos.css" />
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-	
-	<!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
-	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-60470752-1"></script>
-	<script>
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
 
-	gtag('config', 'UA-60470752-1');
-	</script>
+  <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-60470752-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-60470752-1');
+  </script>
 </head>
+
 <body>
-	<div  class="page-selector ">
-		<ul class="navigator nav-bullets">
-			<li><a class="anchor-scroll" href="#section-1" data-on-scroll="blur-effect" data-toggle="tooltip" data-placement="left" title="Integrity"></a></li>
-			<li><a class="anchor-scroll" href="#section-2" data-on-scroll="blur-effect" data-toggle="tooltip" data-placement="left" title="BU Head message"></a></li>
-			<li><a class="anchor-scroll" href="#section-3" data-on-scroll="blur-effect" data-toggle="tooltip" data-placement="left" title="Weekly activity"></a></li>
-			<li><a class="anchor-scroll" href="#section-4" data-on-scroll="blur-effect" data-toggle="tooltip" data-placement="left"  data-placement="left" title="Testimonials"></a></li>
-			<li><a class="anchor-scroll" href="#section-5" data-on-scroll="blur-effect" data-toggle="tooltip" data-placement="left"  data-placement="left" title="Winners"></a></li>
-		</ul>
-	</div>
-	
-	<header class="sticky fixed">
-		<div class="container">
-			<nav class="navbar navbar-expand-lg navbar-light">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="page-selector ">
+    <ul class="navigator nav-bullets">
+      <li>
+        <a class="anchor-scroll" href="#section-1" data-on-scroll="blur-effect" data-toggle="tooltip" data-placement="left" title="Integrity"></a>
+      </li>
+      <li>
+        <a class="anchor-scroll" href="#section-2" data-on-scroll="blur-effect" data-toggle="tooltip" data-placement="left" title="BU Head message"></a>
+      </li>
+      <li>
+        <a class="anchor-scroll" href="#section-3" data-on-scroll="blur-effect" data-toggle="tooltip" data-placement="left" title="Weekly activity"></a>
+      </li>
+      <li>
+        <a class="anchor-scroll" href="#section-4" data-on-scroll="blur-effect" data-toggle="tooltip" data-placement="left" data-placement="left" title="Testimonials"></a>
+      </li>
+      <li>
+        <a class="anchor-scroll" href="#section-5" data-on-scroll="blur-effect" data-toggle="tooltip" data-placement="left" data-placement="left" title="Winners"></a>
+      </li>
+    </ul>
+  </div>
+
+  <header class="sticky fixed">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<a href="identity/overview" class="navbar-brand ml-auto logo order-lg-last" data-menuanchor="firstPage"><img src="identity/ui/images/logo_dksh.svg"alt="DKSH"></a>
-			
-			<div class="collapse navbar-collapse order-lg-first" id="navbarSupportedContent">
-				<ul class="navbar-nav mr-auto navigator">
-				<li class="nav-item">
-					<a href="identity/overview" class="nav-link home" data-menuanchor="firstPage">
-					<svg  version="1.1" class="" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-						viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
+        <a href="identity/overview" class="navbar-brand ml-auto logo order-lg-last" data-menuanchor="firstPage"><img src="identity/ui/images/logo_dksh.svg" alt="DKSH"></a>
+
+        <div class="collapse navbar-collapse order-lg-first" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto navigator">
+            <li class="nav-item">
+              <a href="identity/overview" class="nav-link home" data-menuanchor="firstPage">
+                <svg version="1.1" class="" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512.001 512.001" style="enable-background:new 0 0 512.001 512.001;" xml:space="preserve">
 						<g>
 						<g>
 							<path d="M503.402,228.885L273.684,19.567c-10.083-9.189-25.288-9.188-35.367-0.001L8.598,228.886
@@ -78,255 +92,255 @@
 						</g>
 						</g>
 					</svg>
-					<span class="">Home</span>
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link " href="identity/office-templates">Office templates</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="identity/downloads">Downloads</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="identity/faq">FAQ</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="mailto:GroupMarketing@dksh.com">Contact us</a>
-				</li>
-				</ul>
-			</div>
-			</nav>
-		</div>
-		</header>
+                <span class="">Home</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link " href="identity/office-templates">Office templates</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="identity/downloads">Downloads</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="identity/faq">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:GroupMarketing@dksh.com">Contact us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
 
 
 
-	<div class="section page-section hero-banner integrity d-flex" id="section-1">
-	<div class="page-caller">
-		<div id="demo" class="carousel slide container" data-ride="carousel">
-			<!-- The slideshow -->
-			<div class="carousel-inner">
-				<div class="carousel-item">
-					<div class="row">
-						<!-- thumb 1 -->
-						<div class="col-3">
-							<a href="identity/overview" class="thumb-wrap">
-								<div class="hover-element">
-								<span class="label grey">Identity overview</span>
-								<div class="img-wrap"><img src="identity/ui/images/thump-overview.jpg" alt="Overview"></div>
-								<div class="dt-wrap">
-									<section class="row-1">
-									<span class="icon">
+  <div class="section page-section hero-banner integrity d-flex" id="section-1">
+    <div class="page-caller">
+      <div id="demo" class="carousel slide container" data-ride="carousel">
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="row">
+              <!-- thumb 1 -->
+              <div class="col-3">
+                <a href="identity/overview" class="thumb-wrap">
+                  <div class="hover-element">
+                    <span class="label grey">Identity overview</span>
+                    <div class="img-wrap"><img src="identity/ui/images/thump-overview.jpg" alt="Overview"></div>
+                    <div class="dt-wrap">
+                      <section class="row-1">
+                        <span class="icon">
 										<img src="identity/ui/images/calendar.svg" alt="">
 									</span>
-									<span class="date">11</span>
-									<span class="month">Feb<br>2020</span>
-									</section>
-									<section class="row-2">
-									<div><b>Overview</b></div>
-									<div class="talker">Stefan Butz CEO</div>
-									</section>
-								</div>
-								</div>
-								<small class="indicator"></small>
-							</a>
-						</div>
-						<!-- thumb 2 -->
-						<div class="col-3">
-							<a href="identity/purpose" class="thumb-wrap">
-								<div class="hover-element ">
-								<span class="label grey">Our purpose</span>
-								<div class="img-wrap"><img src="identity/ui/images/thump-purpose.jpg" alt="purpose"></div>
-								<div class="dt-wrap">
-									<section class="row-1">
-									<span class="icon">
+                        <span class="date">11</span>
+                        <span class="month">Feb<br>2020</span>
+                      </section>
+                      <section class="row-2">
+                        <div><b>Overview</b></div>
+                        <div class="talker">Stefan Butz CEO</div>
+                      </section>
+                    </div>
+                  </div>
+                  <small class="indicator"></small>
+                </a>
+              </div>
+              <!-- thumb 2 -->
+              <div class="col-3">
+                <a href="identity/purpose" class="thumb-wrap">
+                  <div class="hover-element ">
+                    <span class="label grey">Our purpose</span>
+                    <div class="img-wrap"><img src="identity/ui/images/thump-purpose.jpg" alt="purpose"></div>
+                    <div class="dt-wrap">
+                      <section class="row-1">
+                        <span class="icon">
 										<img src="identity/ui/images/calendar.svg" alt="">
 									</span>
-									<span class="date">18</span>
-									<span class="month">Feb<br>2020</span>
-									</section>
-									<section class="row-2">
-									<div><b>Our purpose</b></div>
-									<div class="talker">Stefan Butz CEO</div>
-									</section>
-								</div>
-								</div>
-								<small class="indicator"></small>
-							</a>
-						</div>
-						<!-- thumb 3 -->
-						<div class="col-3">
-							<a href="identity/vision-strategy-promise" class="thumb-wrap">
-								<div class="hover-element ">
-								<span class="label grey">Vision, strategy, promise</span>
-								<div class="img-wrap"><img src="identity/ui/images/thump-vision.png" alt="purpose"></div>
-								<div class="dt-wrap">
-									<section class="row-1">
-									<span class="icon">
+                        <span class="date">18</span>
+                        <span class="month">Feb<br>2020</span>
+                      </section>
+                      <section class="row-2">
+                        <div><b>Our purpose</b></div>
+                        <div class="talker">Stefan Butz CEO</div>
+                      </section>
+                    </div>
+                  </div>
+                  <small class="indicator"></small>
+                </a>
+              </div>
+              <!-- thumb 3 -->
+              <div class="col-3">
+                <a href="identity/vision-strategy-promise" class="thumb-wrap">
+                  <div class="hover-element ">
+                    <span class="label grey">Vision, strategy, promise</span>
+                    <div class="img-wrap"><img src="identity/ui/images/thump-vision.png" alt="purpose"></div>
+                    <div class="dt-wrap">
+                      <section class="row-1">
+                        <span class="icon">
 										<img src="identity/ui/images/calendar.svg" alt="">
 									</span>
-									<span class="date">25</span>
-									<span class="month">Feb<br>2020</span>
-									</section>
-									<section class="row-2">
-									<div><b>Vision, strategy, promise</b></div>
-									<div class="talker">Stefan Butz CEO</div>
-									</section>
-								</div>
-								</div>
-								<small class="indicator"></small>
-							</a>
-						</div>
-						<!-- thumb 4 -->
-						<div class="col-3">
-							<a href="identity/integrity" class="thumb-wrap">
-								<div class="hover-element ">
-								<span class="label grey">Our values – Integrity</span>
-								<div class="img-wrap"><img src="identity/ui/images/thump-integrity.jpg" alt="purpose"></div>
-								<div class="dt-wrap">
-									<section class="row-1">
-									<span class="icon">
+                        <span class="date">25</span>
+                        <span class="month">Feb<br>2020</span>
+                      </section>
+                      <section class="row-2">
+                        <div><b>Vision, strategy, promise</b></div>
+                        <div class="talker">Stefan Butz CEO</div>
+                      </section>
+                    </div>
+                  </div>
+                  <small class="indicator"></small>
+                </a>
+              </div>
+              <!-- thumb 4 -->
+              <div class="col-3">
+                <a href="identity/integrity" class="thumb-wrap">
+                  <div class="hover-element ">
+                    <span class="label grey">Our values – Integrity</span>
+                    <div class="img-wrap"><img src="identity/ui/images/thump-integrity.jpg" alt="purpose"></div>
+                    <div class="dt-wrap">
+                      <section class="row-1">
+                        <span class="icon">
 										<img src="identity/ui/images/calendar.svg" alt="">
 									</span>
-									<span class="date">03</span>
-									<span class="month">Mar<br>2020</span>
-									</section>
-									<section class="row-2">
-									<div><b>Our values – Integrity</b></div>
-									<div class="talker">Bijay Singh</div>
-									</section>
-								</div>
-								</div>
-								<small class="indicator"></small>
-							</a>
-					 </div>
-					</div>
-				</div>
+                        <span class="date">03</span>
+                        <span class="month">Mar<br>2020</span>
+                      </section>
+                      <section class="row-2">
+                        <div><b>Our values – Integrity</b></div>
+                        <div class="talker">Bijay Singh</div>
+                      </section>
+                    </div>
+                  </div>
+                  <small class="indicator"></small>
+                </a>
+              </div>
+            </div>
+          </div>
 
-				<!-- slide 2 -->
-				<div class="carousel-item active">
-					<div class="row">	
-						<!-- thumb 5 -->
-						<div class="col-3">
-							<a href="#" class="thumb-wrap">
-								<div class="hover-element ">
-								<span class="label grey ">Our values – Empowerment</span>
-								<div class="img-wrap"><img src="identity/ui/images/thump-empowerment.jpg" alt="purpose"></div>
-								<div class="dt-wrap">
-									<section class="row-1">
-									<span class="icon">
+          <!-- slide 2 -->
+          <div class="carousel-item active">
+            <div class="row">
+              <!-- thumb 5 -->
+              <div class="col-3">
+                <a href="#" class="thumb-wrap">
+                  <div class="hover-element ">
+                    <span class="label grey ">Our values – Empowerment</span>
+                    <div class="img-wrap"><img src="identity/ui/images/thump-empowerment.jpg" alt="purpose"></div>
+                    <div class="dt-wrap">
+                      <section class="row-1">
+                        <span class="icon">
 										<img src="identity/ui/images/calendar.svg" alt="">
 									</span>
-									<span class="date">10</span>
-									<span class="month">Mar<br>2020</span>
-									</section>
-									<section class="row-2">
-									<div><b>Our values – Empowerment</b></div>
-									<div class="talker">Terry Seremetis</div>
-									</section>
-								</div>
-								</div>
-								<small class="indicator current"></small>
-							</a>
-						</div>
-						<!-- thumb 1 -->
-						<div class="col-3">
-							<a href="identity/overview" class="thumb-wrap">
-								<div class="hover-element">
-								<span class="label grey">Identity overview</span>
-								<div class="img-wrap"><img src="identity/ui/images/thump-overview.jpg" alt="Overview"></div>
-								<div class="dt-wrap">
-									<section class="row-1">
-									<span class="icon">
+                        <span class="date">10</span>
+                        <span class="month">Mar<br>2020</span>
+                      </section>
+                      <section class="row-2">
+                        <div><b>Our values – Empowerment</b></div>
+                        <div class="talker">Terry Seremetis</div>
+                      </section>
+                    </div>
+                  </div>
+                  <small class="indicator current"></small>
+                </a>
+              </div>
+              <!-- thumb 1 -->
+              <div class="col-3">
+                <a href="identity/overview" class="thumb-wrap">
+                  <div class="hover-element">
+                    <span class="label grey">Identity overview</span>
+                    <div class="img-wrap"><img src="identity/ui/images/thump-overview.jpg" alt="Overview"></div>
+                    <div class="dt-wrap">
+                      <section class="row-1">
+                        <span class="icon">
 										<img src="identity/ui/images/calendar.svg" alt="">
 									</span>
-									<span class="date">11</span>
-									<span class="month">Feb<br>2020</span>
-									</section>
-									<section class="row-2">
-									<div><b>Overview</b></div>
-									<div class="talker">Stefan Butz CEO</div>
-									</section>
-								</div>
-								</div>
-								<small class="indicator"></small>
-							</a>
-						</div>
-						<!-- thumb 2 -->
-						<div class="col-3">
-							<a href="identity/purpose" class="thumb-wrap">
-								<div class="hover-element ">
-								<span class="label grey">Our purpose</span>
-								<div class="img-wrap"><img src="identity/ui/images/thump-purpose.jpg" alt="purpose"></div>
-								<div class="dt-wrap">
-									<section class="row-1">
-									<span class="icon">
+                        <span class="date">11</span>
+                        <span class="month">Feb<br>2020</span>
+                      </section>
+                      <section class="row-2">
+                        <div><b>Overview</b></div>
+                        <div class="talker">Stefan Butz CEO</div>
+                      </section>
+                    </div>
+                  </div>
+                  <small class="indicator"></small>
+                </a>
+              </div>
+              <!-- thumb 2 -->
+              <div class="col-3">
+                <a href="identity/purpose" class="thumb-wrap">
+                  <div class="hover-element ">
+                    <span class="label grey">Our purpose</span>
+                    <div class="img-wrap"><img src="identity/ui/images/thump-purpose.jpg" alt="purpose"></div>
+                    <div class="dt-wrap">
+                      <section class="row-1">
+                        <span class="icon">
 										<img src="identity/ui/images/calendar.svg" alt="">
 									</span>
-									<span class="date">18</span>
-									<span class="month">Feb<br>2020</span>
-									</section>
-									<section class="row-2">
-									<div><b>Our purpose</b></div>
-									<div class="talker">Stefan Butz CEO</div>
-									</section>
-								</div>
-								</div>
-								<small class="indicator"></small>
-							</a>
-						</div>
-						<!-- thumb 3 -->
-						<div class="col-3">
-							<a href="identity/vision-strategy-promise" class="thumb-wrap">
-								<div class="hover-element ">
-								<span class="label grey">Vision, strategy, promise</span>
-								<div class="img-wrap"><img src="identity/ui/images/thump-vision.png" alt="purpose"></div>
-								<div class="dt-wrap">
-									<section class="row-1">
-									<span class="icon">
+                        <span class="date">18</span>
+                        <span class="month">Feb<br>2020</span>
+                      </section>
+                      <section class="row-2">
+                        <div><b>Our purpose</b></div>
+                        <div class="talker">Stefan Butz CEO</div>
+                      </section>
+                    </div>
+                  </div>
+                  <small class="indicator"></small>
+                </a>
+              </div>
+              <!-- thumb 3 -->
+              <div class="col-3">
+                <a href="identity/vision-strategy-promise" class="thumb-wrap">
+                  <div class="hover-element ">
+                    <span class="label grey">Vision, strategy, promise</span>
+                    <div class="img-wrap"><img src="identity/ui/images/thump-vision.png" alt="purpose"></div>
+                    <div class="dt-wrap">
+                      <section class="row-1">
+                        <span class="icon">
 										<img src="identity/ui/images/calendar.svg" alt="">
 									</span>
-									<span class="date">25</span>
-									<span class="month">Feb<br>2020</span>
-									</section>
-									<section class="row-2">
-									<div><b>Vision, strategy, promise</b></div>
-									<div class="talker">Stefan Butz CEO</div>
-									</section>
-								</div>
-								</div>
-								<small class="indicator"></small>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- Left and right controls -->
-			<div class="controllers">
-				<a class="" href="#demo" data-slide="prev">
-				<span class="icon-left-arrow"></span>
-				</a>
-				<a class="" href="#demo" data-slide="next">
-				<span class="icon-right-arrow"></span>
-				</a>
-			</div>
-		</div>
-	</div>
-	<div class="container align-items-center">
-		<div class="row">
-		<div class="col-12 col-lg-6"><img src="identity/ui/images/empowerment-graphics.png" alt="Value integrity"></div>
-		<div class="col-12 col-lg-6 text-wrap">
-			<h5 class="dksh-title-5">Our values</h5>
-			<h1 class="dksh-title-1 empowerment">Empowerment.</h1>
-			<p>We own our decisions, take accountability for our actions and trust and respect each other – so each one of us can make a difference and grow.</p>
-		</div>
-		</div>
-	</div>
-	</div>
-	<!-- Mobile page selector -->
-	<div class="mob-pg-caller">
-	<p>Find previous Identity elements here.</p>
-	<select name="forma" onchange="location = this.value;">
+                        <span class="date">25</span>
+                        <span class="month">Feb<br>2020</span>
+                      </section>
+                      <section class="row-2">
+                        <div><b>Vision, strategy, promise</b></div>
+                        <div class="talker">Stefan Butz CEO</div>
+                      </section>
+                    </div>
+                  </div>
+                  <small class="indicator"></small>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <div class="controllers">
+          <a class="" href="#demo" data-slide="prev">
+            <span class="icon-left-arrow"></span>
+          </a>
+          <a class="" href="#demo" data-slide="next">
+            <span class="icon-right-arrow"></span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="container align-items-center">
+      <div class="row">
+        <div class="col-12 col-lg-6"><img src="identity/ui/images/empowerment-graphics.png" alt="Value integrity"></div>
+        <div class="col-12 col-lg-6 text-wrap">
+          <h5 class="dksh-title-5">Our values</h5>
+          <h1 class="dksh-title-1 empowerment">Empowerment.</h1>
+          <p>We own our decisions, take accountability for our actions and trust and respect each other – so each one of us can make a difference and grow.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Mobile page selector -->
+  <div class="mob-pg-caller">
+    <p>Find previous Identity elements here.</p>
+    <select name="forma" onchange="location = this.value;">
 		<option value="0" selected>Select</option>
 		<option value="identity/overview">Identity overview</option>
 		<option value="identity/purpose">Our purpose</option>
@@ -334,603 +348,629 @@
 		<option value="identity/integrity">Our values – Integrity</option>
 		<option value="#">Our values – Empowerment </option>
 	</select>
-	</div>
-	
-	
-	
-	
-	<div class="section page-section vison-talk ceo-talk" id="section-2">
-	<div class="container">
-		<div class="row">
-		<div class="col-12 col-lg-6">
-			<div class="txt-wrap txt-wrap text-center text-lg-right">
-			<!-- <h6 class="ceo-title">Going beyond the boundaries of expectations.</h6> -->
-			<span class="icon-quote-right icon-quote"></span>
-			<p class="talk">I believe that empowerment can be summed up in three words: freedom, excitement and responsibility. Or put another way, feeling like you’re in charge of your job.</p>
-			<p class="author">Terry Seremetis</p>
-			<p class="position">Head Business Unit Consumer Goods</p>
-			</div>
-		</div>
-		<div class="col-12 col-lg-6">
-			<div class="img-wrap">
-			<img src="identity/ui/images/terry.png" alt="Terry ">
-			</div>
-		</div>
-		</div>
-	</div>
-	</div>
-	<div class="section page-section activity-section" id="section-3">
-	<div class="container">
-		<div class="row">
-		<div class="col-12 col-lg-6 img integrity"></div>
-		<div class="col-12 col-lg-6 right">
-			<div class="txt-wrap ">
-			<h3 class="dksh-title-5">Activity of the week</h3>
-			<h3 class="dksh-title-3">What does empowerment mean to you?</h3>
-			<h5 class="dksh-title-4">Tell us and win a cool prize!</h5>
-			<a target="_blank" href="https://www.surveymonkey.de/r/773Q77P" class="btn btn-primary">Start here</a>
-			<p><i>Submit your answer by Friday, March 13, 12 p.m. CET.</i></p>
-			<p>See last week’s winners  <a class="navigator" href="#section-5">here.</a></p>
-			</div>
-		</div>
-		</div>
-	</div>
-	</div>
+  </div>
 
-	 <!-- video Testimonials -->
-	<div class="testi-video section page-section" id="section-4">
-		<div class="container">
-			<div class="row d-flex">
-				
-				<div class="col-12 col-lg-6 d-flex testy-left order-xl-2 order-lg-1">
-					<div class="txt-wrap">
-						<h3 class="dksh-title-3 white">"Empowerment, to me, means..."</h3>
-						<h5 class="dksh-title-4 white">Hear what some of your colleagues are saying!</h5>
-					</div>
-				</div>
-				<div class="col-12 col-lg-6 testi-v-w order-xl-1 order-lg-2">
-					<div class="v-slider-wrap">
-						<div class="testi-v" id="testi-v">
-							<carousel-3d :autoplay="false" :display="3" :height="640" :controls-visible="true" :controls-prev-html="'&#10092;'" :controls-next-html="'&#10093;'" 
-							:controls-width="30" :controls-height="60" @after-slide-change="onAfterSlideChange" @before-slide-change="onBeforeSlideChange" @last-slide="onLastSlide" >
-								<slide :index="0">
-									<video controls   poster="identity/ui/video/empowerment/kongwette.jpg" id="testi-vd0">
+
+
+
+  <div class="section page-section vison-talk ceo-talk" id="section-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6">
+          <div class="txt-wrap txt-wrap text-center text-lg-right">
+            <!-- <h6 class="ceo-title">Going beyond the boundaries of expectations.</h6> -->
+            <span class="icon-quote-right icon-quote"></span>
+            <p class="talk">I believe that empowerment can be summed up in three words: freedom, excitement and responsibility. Or put another way, feeling like you’re in charge of your job.</p>
+            <p class="author">Terry Seremetis</p>
+            <p class="position">Head Business Unit Consumer Goods</p>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="img-wrap">
+            <img src="identity/ui/images/terry.png" alt="Terry ">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="section page-section activity-section" id="section-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-6 img integrity"></div>
+        <div class="col-12 col-lg-6 right">
+          <div class="txt-wrap ">
+            <h3 class="dksh-title-5">Activity of the week</h3>
+            <h3 class="dksh-title-3">What does empowerment mean to you?</h3>
+            <h5 class="dksh-title-4">Tell us and win a cool prize!</h5>
+            <a target="_blank" href="https://www.surveymonkey.de/r/773Q77P" class="btn btn-primary">Start here</a>
+            <p><i>Submit your answer by Friday, March 13, 12 p.m. CET.</i></p>
+            <p>See last week’s winners <a class="navigator" href="#section-5">here.</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- video Testimonials -->
+  <div class="testi-video section page-section" id="section-4">
+    <div class="container">
+      <div class="row d-flex">
+
+        <div class="col-12 col-lg-6 d-flex testy-left order-xl-2 order-lg-1">
+          <div class="txt-wrap">
+            <h3 class="dksh-title-3 white">"Empowerment, to me, means..."</h3>
+            <h5 class="dksh-title-4 white">Hear what some of your colleagues are saying!</h5>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 testi-v-w order-xl-1 order-lg-2">
+          <div class="v-slider-wrap">
+            <div class="testi-v" id="testi-v">
+              <carousel-3d :autoplay="false" :display="3" :height="640" :controls-visible="true" :controls-prev-html="'&#10092;'" :controls-next-html="'&#10093;'" :controls-width="30" :controls-height="60" @after-slide-change="onAfterSlideChange" @before-slide-change="onBeforeSlideChange"
+                @last-slide="onLastSlide">
+                <slide :index="0">
+                  <video controls poster="identity/ui/video/empowerment/kongwette.jpg" id="testi-vd0">
 										<source src="identity/ui/video/empowerment/kongwette.mp4" type="video/mp4">
 									</video>
-									<div class="label">
-										Kongwette Aonlamoon
-									</div>
-								</slide>
-								<slide :index="1">
-									<video controls poster="identity/ui/video/empowerment/nicha.jpg" id="testi-vd1">
+                  <div class="label">
+                    Kongwette Aonlamoon
+                  </div>
+                </slide>
+                <slide :index="1">
+                  <video controls poster="identity/ui/video/empowerment/nicha.jpg" id="testi-vd1">
 										<source src="identity/ui/video/empowerment/nicha.mp4" type="video/mp4">
 									</video>
-									<div class="label">
-										Nicha Panapitakkul 
-									</div>
-								</slide>
-								<slide :index="2">
-								<video controls   poster="identity/ui/video/empowerment/sofiacastro.jpg" id="testi-vd2">
+                  <div class="label">
+                    Nicha Panapitakkul
+                  </div>
+                </slide>
+                <slide :index="2">
+                  <video controls poster="identity/ui/video/empowerment/sofiacastro.jpg" id="testi-vd2">
 									<source src="identity/ui/video/empowerment/sofiacastro.mp4" type="video/mp4">
 								</video>
-								<div class="label">
-									Sofia Castro
-								</div>
-								</slide>
-								<slide :index="3">
-								<video controls   poster="identity/ui/video/empowerment/victorcho.jpg" id="testi-vd3">
+                  <div class="label">
+                    Sofia Castro
+                  </div>
+                </slide>
+                <slide :index="3">
+                  <video controls poster="identity/ui/video/empowerment/victorcho.jpg" id="testi-vd3">
 									<source src="identity/ui/video/empowerment/victorcho.mp4" type="video/mp4">
 								</video>
-								<div class="label">
-									Victor Cho
-								</div>
-								</slide>
-								<slide :index="4">
-								<video controls   poster="identity/ui/video/empowerment/gerard-roca.jpg" id="testi-vd4">
+                  <div class="label">
+                    Victor Cho
+                  </div>
+                </slide>
+                <slide :index="4">
+                  <video controls poster="identity/ui/video/empowerment/gerard-roca.jpg" id="testi-vd4">
 									<source src="identity/ui/video/empowerment/gerard-roca.mp4" type="video/mp4">
 								</video>
-								<div class="label">
-									Gerard Roca
-								</div>
-								</slide>
-							</carousel-3d>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                  <div class="label">
+                    Gerard Roca
+                  </div>
+                </slide>
 
-	<!-- winners -->
-	<div class="section page-section winners" id="section-5">
-	<!-- section 1 -->
-	<div class="row">
-		<div class="col first-head">
-		<div class="inner">
-			<h3 class="dksh-title-3">The winners of our integrity activity</h3>
-			<p>What does integrity mean to you?</p>
-		</div>
-		</div>
-		
-		<!-- Australia -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Quality relationships based on honesty, reliability and performance.</p>
-				</article>
-				<p class="name">Niall Kinch</p>
-				<p class="place">Australia</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/niall-kinch.jpg" alt="">
-		</div>
-	
-		<!-- Cambodia -->
-		<div class="col pic">
-			<div class="label">
-				<div class="inner">
-					<article class="quote">
-						<span class="icon"></span>
-						<p>To me, integrity means: doing the right things and being honest and transparent in committing to our work with colleagues and company.</p>
-					</article>
-					<p class="name">Sopheap Chhoeun</p>
-					<p class="place">Cambodia</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/sopheap-chhoeun.jpg" alt="">
-		</div>
-	
-		<!-- China -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Be reliable, compliant and trustworthy.</p>
-				</article>
-				<p class="name">Carole Lin</p>
-				<p class="place">China</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/carole-lin.jpg" alt="">
-		</div>
-		<!-- Denmark -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Integrity, to me, means respectful and friendly interaction with people, keeping my word and making decisions that are beneficial not only for DKSH, but also for our business partners and our world.	</p>
-				</article>
-				<p class="name">Kai Martin</p>
-				<p class="place">Denmark</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/kai-martin.jpg" alt="">
-		</div>
-		<!-- France -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Integrity for me means behaving in line with my convictions about human business and the respect of rules/regulations.</p>
-				</article>
-				<p class="name">Joaquim Pires</p>
-				<p class="place">France</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/joaquim-pires.jpg" alt="">
-		</div>
+                <slide :index="5">
+                  <video controls poster="identity/ui/video/empowerment/hec-katrina-lo.jpg" id="testi-vd5">
+                    <source src="identity/ui/video/empowerment/hec-katrina-lo.mp4" type="video/mp4">
+                  </video>
+                  <div class="label">
+                    Katrina Lo
+                  </div>
+                </slide>
+                <slide :index="6">
+                  <video controls poster="identity/ui/video/empowerment/fin_linda-so.jpg" id="testi-vd6">
+                    <source src="identity/ui/video/empowerment/fin_linda-so.mp4" type="video/mp4">
+                  </video>
+                  <div class="label">
+                    Linda So
+                  </div>
+                </slide>
+                <slide :index="7">
+                  <video controls poster="identity/ui/video/empowerment/leo-ng.jpg" id="testi-vd7">
+                    <source src="identity/ui/video/empowerment/leo-ng.mp4" type="video/mp4">
+                  </video>
+                  <div class="label">
+                    Leo Ng
+                  </div>
+                </slide>
+              </carousel-3d>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-		<!-- Germany -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Integrity means to me keeping agreements but being open to further discussion. Not trying to twist everything to one's own benefit.</p>
-				</article>
-				<p class="name">Benjamin Hinrichs</p>
-				<p class="place">Germany</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/benjamin-hinrichs.jpg" alt="">
-		</div>
+  <!-- winners -->
+  <div class="section page-section winners" id="section-5">
+    <!-- section 1 -->
+    <div class="row">
+      <div class="col first-head">
+        <div class="inner">
+          <h3 class="dksh-title-3">The winners of our integrity activity</h3>
+          <p>What does integrity mean to you?</p>
+        </div>
+      </div>
 
-		<!-- great Britain -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Integrity, to me, means doing the right thing, even if it is not the easy choice, ensuring we offer transparency and ethical practices, which builds trust with those we deal with every day.
-						</p>
-				</article>
-				<p class="name">Stuart Fellows</p>
-				<p class="place">Great Britain</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/stuart-fellows.jpg" alt="">
-		</div>
+      <!-- Australia -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Quality relationships based on honesty, reliability and performance.</p>
+            </article>
+            <p class="name">Niall Kinch</p>
+            <p class="place">Australia</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/niall-kinch.jpg" alt="">
+      </div>
 
-		<!-- Hong Kong -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Integrity is the way we do things right within the compliance framework. It is the charisma that radiates from within to exemplify our core values.
-						</p>
-				</article>
-			<p class="name">Lewis Huen Man Kit</p>
-			<p class="place">Hong Kong</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/lewis-huen.jpg" alt="">
-		</div>
+      <!-- Cambodia -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>To me, integrity means: doing the right things and being honest and transparent in committing to our work with colleagues and company.</p>
+            </article>
+            <p class="name">Sopheap Chhoeun</p>
+            <p class="place">Cambodia</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/sopheap-chhoeun.jpg" alt="">
+      </div>
 
-		<!-- India -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Be true to yourself and never compromise on moral values and ethics in personal and professional life.</p>
-				</article>
-			<p class="name">Shweta Chawak</p>
-			<p class="place">India</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/shweta-chawak.jpg" alt="">
-		</div>
-		
-		<!-- Indonesia -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Integrity means doing the right thing in every aspect of your decision. Not just within the job but also in your day to day life because you would not have integrity within what you do if you don't have integrity in all your life decisions.
-						</p>
-				</article>
-			<p class="name">Stevan Yap</p>
-			<p class="place">Indonesia</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/stevan-yap.jpg" alt="">
-		</div>
+      <!-- China -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Be reliable, compliant and trustworthy.</p>
+            </article>
+            <p class="name">Carole Lin</p>
+            <p class="place">China</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/carole-lin.jpg" alt="">
+      </div>
+      <!-- Denmark -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity, to me, means respectful and friendly interaction with people, keeping my word and making decisions that are beneficial not only for DKSH, but also for our business partners and our world. </p>
+            </article>
+            <p class="name">Kai Martin</p>
+            <p class="place">Denmark</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/kai-martin.jpg" alt="">
+      </div>
+      <!-- France -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity for me means behaving in line with my convictions about human business and the respect of rules/regulations.</p>
+            </article>
+            <p class="name">Joaquim Pires</p>
+            <p class="place">France</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/joaquim-pires.jpg" alt="">
+      </div>
 
+      <!-- Germany -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity means to me keeping agreements but being open to further discussion. Not trying to twist everything to one's own benefit.</p>
+            </article>
+            <p class="name">Benjamin Hinrichs</p>
+            <p class="place">Germany</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/benjamin-hinrichs.jpg" alt="">
+      </div>
 
-		<!-- Korea -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Speak with honesty. Think with sincerity.  Act with integrity. Integrity is most important!</p>
-				</article>
-			<p class="name">Sora Jung</p>
-			<p class="place">Korea</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/sora-jung.jpg" alt="">
-		</div>
-	
-		<!-- Laos -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Doing the right things right the first time. Integrity is one of the important principles in leadership as it reflects your character as a truthful and honest leader.</p>
-				</article>
-			<p class="name">Maricel Concepcion</p>
-			<p class="place">Laos</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/maricel-concepcion.jpg" alt="">
-		</div>
+      <!-- great Britain -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity, to me, means doing the right thing, even if it is not the easy choice, ensuring we offer transparency and ethical practices, which builds trust with those we deal with every day.
+              </p>
+            </article>
+            <p class="name">Stuart Fellows</p>
+            <p class="place">Great Britain</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/stuart-fellows.jpg" alt="">
+      </div>
 
-		
-		<!-- Malaysia -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>For me, integrity is when someone offers you candy in exchange for something that is immoral, and you refuse to take the candy. Honesty over everything.</p>
-				</article>
-			<p class="name">Eva Danielle Chong</p>
-			<p class="place">Malaysia</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/eva-danielle-chong.jpg" alt="">
-		</div>
-		
-		<!-- Malaysia - CSSC -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Integrity means walking the talk and delivering the set objective.</p>
-				</article>
-			<p class="name">Ryan Goh</p>
-			<p class="place">Malaysia - CSSC</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/ryan-goh.jpg" alt="">
-		</div>
+      <!-- Hong Kong -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity is the way we do things right within the compliance framework. It is the charisma that radiates from within to exemplify our core values.
+              </p>
+            </article>
+            <p class="name">Lewis Huen Man Kit</p>
+            <p class="place">Hong Kong</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/lewis-huen.jpg" alt="">
+      </div>
 
-		 <!-- Myanmar -->
-		 <div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Working at DKSH which strongly upholds the value of integrity makes me confident and this even extends to my personal life.</p>
-				</article>
-			<p class="name">Nway Thiri Lwin</p>
-			<p class="place">Myanmar</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/nway-thiri.jpg" alt="">
-		</div>
-	
-		<!-- New Zealand -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Integrity is the values you place on yourself. It is making the right choice and sticking with your beliefs.</p>
-				</article>
-			<p class="name">Rebecca Jenkins</p>
-			<p class="place">New Zealand</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/rebecca-jenkins.jpg" alt="">
-		</div>
+      <!-- India -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Be true to yourself and never compromise on moral values and ethics in personal and professional life.</p>
+            </article>
+            <p class="name">Shweta Chawak</p>
+            <p class="place">India</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/shweta-chawak.jpg" alt="">
+      </div>
 
-		<!-- Philippines -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Integrity means doing the right thing and being honest at work even if nobody's watching.</p>
-				</article>
-			<p class="name">Abigael Deriquito</p>
-			<p class="place">Philippines</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/abigael-deriquito.jpg" alt="">
-		</div>
-
-		<!-- Portugal -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Integrity is more than anything a quality that should be transmitted to others by our actions and everyday gestures. If you are true to your values, this quality can make you great, so put yourself in the small things you do!</p>
-				</article>
-			<p class="name">Marco Teixeira</p>
-			<p class="place">Portugal</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/marco-sartei.jpg" alt="">
-		</div>
+      <!-- Indonesia -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity means doing the right thing in every aspect of your decision. Not just within the job but also in your day to day life because you would not have integrity within what you do if you don't have integrity in all your life decisions.
+              </p>
+            </article>
+            <p class="name">Stevan Yap</p>
+            <p class="place">Indonesia</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/stevan-yap.jpg" alt="">
+      </div>
 
 
-		<!-- Singapore -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Integrity is staying true to yourself and giving your best.</p>
-				</article>
-			<p class="name">Vilvarayanallur Sowmya</p>
-			<p class="place">Singapore</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/vilvarayanallur-sowmya.jpg" alt="">
-		</div>
-		
-	
-		<!-- Spain -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Integrity, for me, means trust, authenticity, effective interpersonal relationships and to give my best service in my work.</p>
-				</article>
-			<p class="name">Anna Wilk</p>
-			<p class="place">Spain</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/anna-wilk.jpg" alt="">
-		</div>
-	
-		<!-- Switzerland -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Adhering to your strong ethical principles and never jeopardizing your moral compass.</p>
-				</article>
-			<p class="name">Sebastian Dudli</p>
-			<p class="place">Switzerland</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/sebastian-dudli.jpg" alt="">
-		</div>
+      <!-- Korea -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Speak with honesty. Think with sincerity. Act with integrity. Integrity is most important!</p>
+            </article>
+            <p class="name">Sora Jung</p>
+            <p class="place">Korea</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/sora-jung.jpg" alt="">
+      </div>
 
-		<!-- Taiwan -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>We tell the truth – do not exaggerate or make a show. We do not make promises to clients easily; once we make a commitment, we will go all out regardless of the cost. </p>
-				</article>
-			<p class="name">Chao-quo Chen</p>
-			<p class="place">Taiwan</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/chao-quo.jpg" alt="">
-		</div>
-	
-		<!-- Thailand -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>A person who is honest, not corrupt, and does not say offensive things to people in front of them or behind their backs.</p>
-				</article>
-			<p class="name">Pasara Peash-in</p>
-			<p class="place">Thailand</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/pasara-p.jpg" alt="">
-		</div>
-		
-		
-
-		<!-- USA -->
-		<div class="col pic">
-		<div class="label">
-			<div class="inner">
-				<article class="quote">
-					<span class="icon"></span>
-					<p>Being honest and having strong moral principles and living with these values through relationships at home and work with co-workers and customers.
-						</p>
-				</article>
-			<p class="name">Roy Heckel</p>
-			<p class="place">USA</p>
-			</div>
-		</div>
-		<img src="identity/ui/images/integrity-winers/roy-heckel.jpg" alt="">
-		</div>
-
-		<!-- Vietnam -->
-		<div class="col pic">
-			<div class="label">
-				<div class="inner">
-					<article class="quote">
-						<span class="icon"></span>
-						<p>Integrity means doing the right things even if no one else is watching; it means doing the same as what we talked about.</p>
-					</article>
-					<p class="name">Diem Hoang Nguyen</p>
-					<p class="place">Vietnam</p>
-				</div>
-			</div>
-			<img src="identity/ui/images/integrity-winers/diem-hoang.jpg" alt="">
-		</div>
-	
-		</div>
-	</div>
-
-	
-	
-	
-	<footer class="">
-		<section class="tagline">
-			Delivering growth – in Asia and beyond.
-		</section>
-		<section class="footer-section">
-			<div class="row">
-			<div class="col-lg-6 text-center text-lg-left"><span>© DKSH Management Ltd. | Group Marketing</span></div>
-			<div class="col-lg-6 text-center text-lg-right">
-				<ul class="">	
-				<li class=""><a class="nav-link" href="mailto:GroupMarketing@dksh.com">Contact us</a></li>
-			</ul>
-			</div>
-			</div>
-		</section>
-	</footer>
+      <!-- Laos -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Doing the right things right the first time. Integrity is one of the important principles in leadership as it reflects your character as a truthful and honest leader.</p>
+            </article>
+            <p class="name">Maricel Concepcion</p>
+            <p class="place">Laos</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/maricel-concepcion.jpg" alt="">
+      </div>
 
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-		<div class="modal-body">
-		 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+      <!-- Malaysia -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>For me, integrity is when someone offers you candy in exchange for something that is immoral, and you refuse to take the candy. Honesty over everything.</p>
+            </article>
+            <p class="name">Eva Danielle Chong</p>
+            <p class="place">Malaysia</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/eva-danielle-chong.jpg" alt="">
+      </div>
+
+      <!-- Malaysia - CSSC -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity means walking the talk and delivering the set objective.</p>
+            </article>
+            <p class="name">Ryan Goh</p>
+            <p class="place">Malaysia - CSSC</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/ryan-goh.jpg" alt="">
+      </div>
+
+      <!-- Myanmar -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Working at DKSH which strongly upholds the value of integrity makes me confident and this even extends to my personal life.</p>
+            </article>
+            <p class="name">Nway Thiri Lwin</p>
+            <p class="place">Myanmar</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/nway-thiri.jpg" alt="">
+      </div>
+
+      <!-- New Zealand -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity is the values you place on yourself. It is making the right choice and sticking with your beliefs.</p>
+            </article>
+            <p class="name">Rebecca Jenkins</p>
+            <p class="place">New Zealand</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/rebecca-jenkins.jpg" alt="">
+      </div>
+
+      <!-- Philippines -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity means doing the right thing and being honest at work even if nobody's watching.</p>
+            </article>
+            <p class="name">Abigael Deriquito</p>
+            <p class="place">Philippines</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/abigael-deriquito.jpg" alt="">
+      </div>
+
+      <!-- Portugal -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity is more than anything a quality that should be transmitted to others by our actions and everyday gestures. If you are true to your values, this quality can make you great, so put yourself in the small things you do!</p>
+            </article>
+            <p class="name">Marco Teixeira</p>
+            <p class="place">Portugal</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/marco-sartei.jpg" alt="">
+      </div>
+
+
+      <!-- Singapore -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity is staying true to yourself and giving your best.</p>
+            </article>
+            <p class="name">Vilvarayanallur Sowmya</p>
+            <p class="place">Singapore</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/vilvarayanallur-sowmya.jpg" alt="">
+      </div>
+
+
+      <!-- Spain -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity, for me, means trust, authenticity, effective interpersonal relationships and to give my best service in my work.</p>
+            </article>
+            <p class="name">Anna Wilk</p>
+            <p class="place">Spain</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/anna-wilk.jpg" alt="">
+      </div>
+
+      <!-- Switzerland -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Adhering to your strong ethical principles and never jeopardizing your moral compass.</p>
+            </article>
+            <p class="name">Sebastian Dudli</p>
+            <p class="place">Switzerland</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/sebastian-dudli.jpg" alt="">
+      </div>
+
+      <!-- Taiwan -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>We tell the truth – do not exaggerate or make a show. We do not make promises to clients easily; once we make a commitment, we will go all out regardless of the cost. </p>
+            </article>
+            <p class="name">Chao-quo Chen</p>
+            <p class="place">Taiwan</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/chao-quo.jpg" alt="">
+      </div>
+
+      <!-- Thailand -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>A person who is honest, not corrupt, and does not say offensive things to people in front of them or behind their backs.</p>
+            </article>
+            <p class="name">Pasara Peash-in</p>
+            <p class="place">Thailand</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/pasara-p.jpg" alt="">
+      </div>
+
+
+
+      <!-- USA -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Being honest and having strong moral principles and living with these values through relationships at home and work with co-workers and customers.
+              </p>
+            </article>
+            <p class="name">Roy Heckel</p>
+            <p class="place">USA</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/roy-heckel.jpg" alt="">
+      </div>
+
+      <!-- Vietnam -->
+      <div class="col pic">
+        <div class="label">
+          <div class="inner">
+            <article class="quote">
+              <span class="icon"></span>
+              <p>Integrity means doing the right things even if no one else is watching; it means doing the same as what we talked about.</p>
+            </article>
+            <p class="name">Diem Hoang Nguyen</p>
+            <p class="place">Vietnam</p>
+          </div>
+        </div>
+        <img src="identity/ui/images/integrity-winers/diem-hoang.jpg" alt="">
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <footer class="">
+    <section class="tagline">
+      Delivering growth – in Asia and beyond.
+    </section>
+    <section class="footer-section">
+      <div class="row">
+        <div class="col-lg-6 text-center text-lg-left"><span>© DKSH Management Ltd. | Group Marketing</span></div>
+        <div class="col-lg-6 text-center text-lg-right">
+          <ul class="">
+            <li class=""><a class="nav-link" href="mailto:GroupMarketing@dksh.com">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
 			<span aria-hidden="true">&times;</span>
-			</button>        
-			<!-- 16:9 aspect ratio -->
-			<div class="embed-responsive embed-responsive-16by9">
-			<iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allowfullscreen="allowfullscreen" allow="autoplay"></iframe>
-			</div>
-		</div>
-	
-		</div>
-	</div>
-	</div>
-	<div class="scrollToTop top"></div>
+			</button>
+          <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allowfullscreen="allowfullscreen" allow="autoplay"></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="scrollToTop top"></div>
 
 
-	<!-- Script for smooth scrolling -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
-	<script src="identity/ui/js/jquery.enllax.min.js"></script>
-	<script src="identity/ui/js/jquery.anchorScroll.min.js"></script>
-	<script src="identity/ui/js/main.js"></script>
-	<script src="identity/ui/js/aos.js"></script>
+  <!-- Script for smooth scrolling -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.min.js"></script>
+  <script src="identity/ui/js/jquery.enllax.min.js"></script>
+  <script src="identity/ui/js/jquery.anchorScroll.min.js"></script>
+  <script src="identity/ui/js/main.js"></script>
+  <script src="identity/ui/js/aos.js"></script>
 
-	<!-- video 3d gallery -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js"></script>
+  <!-- video 3d gallery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js"></script>
   <script src="https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js"></script>
-	<script>
-		AOS.init({
-			easing: 'ease-in-out-sine'
-		});
+  <script>
+    AOS.init({
+      easing: 'ease-in-out-sine'
+    });
 
-		(function($){
-			//Plugin activation
-			$(window).enllax();
-			})(jQuery);
+    (function($) {
+      //Plugin activation
+      $(window).enllax();
+    })(jQuery);
 
-			$('.anchor-scroll').anchorScroll({
-			scrollSpeed: 800, // scroll speed
-			offsetTop: 0, // offset for fixed top bars (defaults to 0)
-			onScroll: function () { 
-				// callback on scroll start
-			},
-			scrollEnd: function () { 
-				// callback on scroll end
-			}
-		});
-	
-		new Vue({
-			
-			el: '#testi-v',
-			data: {
-					slides: 7
-			},
-			components: {
-					'carousel-3d': Carousel3d.Carousel3d,
-					'slide': Carousel3d.Slide
-			},
-			methods: {
-				onAfterSlideChange(index) {
-				//$('#testi-vd0').play();
-				for(var i=0; i<=4;i++){
-					document.getElementById("testi-vd"+i).pause();
-				}
-				document.getElementById("testi-vd"+index).play();
-				//e.preventDefault(); 
-				console.log('@onAfterSlideChange Callback Triggered', 'Slide Index ' + index)
-			}
-  	}
-	})
-	</script>
+    $('.anchor-scroll').anchorScroll({
+      scrollSpeed: 800, // scroll speed
+      offsetTop: 0, // offset for fixed top bars (defaults to 0)
+      onScroll: function() {
+        // callback on scroll start
+      },
+      scrollEnd: function() {
+        // callback on scroll end
+      }
+    });
+
+    new Vue({
+
+      el: '#testi-v',
+      data: {
+        slides: 8
+      },
+      components: {
+        'carousel-3d': Carousel3d.Carousel3d,
+        'slide': Carousel3d.Slide
+      },
+      methods: {
+        onAfterSlideChange(index) {
+          //$('#testi-vd0').play();
+          for (var i = 0; i <= 7; i++) {
+            document.getElementById("testi-vd" + i).pause();
+          }
+          document.getElementById("testi-vd" + index).play();
+          //e.preventDefault(); 
+          console.log('@onAfterSlideChange Callback Triggered', 'Slide Index ' + index)
+        }
+      }
+    })
+  </script>
 </body>
+
 </html>
